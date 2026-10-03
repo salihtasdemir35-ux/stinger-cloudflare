@@ -1,0 +1,12 @@
+{
+  "name": "stinger-sunucu",
+  "version": "1.2.0",
+  "private": true,
+  "description": "STINGER – Interceptor Challenge online sunucusu (Cloudflare Workers + Durable Objects, ücretsiz plan)",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "test": "node test-server.js"
+  },
+  "devDependencies": { "wrangler": "^4.0.0" }
+}

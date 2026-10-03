@@ -1,0 +1,10 @@
+{
+  // STINGER online sunucu — Cloudflare Workers (ücretsiz plan)
+  "name": "stinger-sunucu",
+  "main": "src/index.js",
+  "compatibility_date": "2025-09-01",
+  "assets": { "directory": "./public", "binding": "ASSETS", "run_worker_first": true },
+  "durable_objects": { "bindings": [ { "name": "LOBBY", "class_name": "Lobby" } ] },
+  "migrations": [ { "tag": "v1", "new_sqlite_classes": ["Lobby"] } ],
+  "observability": { "enabled": true }
+}
